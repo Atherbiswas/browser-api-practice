@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice task</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Practice task solve</h1>
+    <section class="container mt-5">
+    <p class="fw-bold">prompt দিয়ে ইউজারের কাছ থেকে একটা সংখ্যা নাও। সেটার সাথে ২০০যোগ করো। যোগ করতে গেলে parse করা লাগলে সেটা করো। তারপর সেই রেজাল্টকে alert দিয়ে আউটপুট দেখাও</p>
+    <button type="button" onclick="userInfo()" class="btn btn-primary mt-0 ms-3">Prompt Me</button><br>
+    </section>
+    <section class="container mt-5">
+    <p class="fw-bold">ব্রাউজারে একটা confirm করে জিজ্ঞেস করো তুমি কি তোমার ওয়েবসাইট এর লোকেশন দেখতে চাও। যদি বলে দেখতে চাই তাহলে সেই ওয়েবসাইট এর লোকেশন এর href জিনিসটা কনসোল লগ করে দেখাও </p>
+    <button type="button" onclick="locationBtn()" class="btn btn-info ms-3 text-light">Confirm me</button>
+    </section>
+    <!-- name and age section  -->
+    <section class="container mt-5">
+        <input type="text" id="input-field" placeholder="Enter your name">
+        <button id="btn-add-name" class="btn btn-primary">Add</button>
+        <button id="btn-remove-name" class="btn btn-danger">Remove</button> <br> <h1></h1>
+        <input type="text" id="input-field-age" placeholder="Enter your age">
+        <button id="btn-add-age" class="btn btn-primary">Add</button>
+        <button id="btn-remove-age" class="btn btn-danger">Remove</button>  <br><br>
+        <button id="btn-clear" class="btn btn-danger">Clear All</button>
+    </section>
+    <!-- full name section  -->
+    <section class="container mt-5">
+        <input type="text" id="first-name-field" placeholder="Enter your first name">
+        <input type="text" id="last-name-field" placeholder="Enter your last name">
+        <button id="btn-add" onclick="addName()" class="btn btn-primary">Add</button>
+    </section>
+    <!-- bootstrap cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- main js file  -->
+    <script src="js/user.js"></script>
+</body>
+</html>
